@@ -1,0 +1,40 @@
+---
+layout: base.njk
+---
+
+<div class="blog-post-page">
+  <nav class="back"><a class="muted" href="/blog">← Blog</a></nav>
+  
+  <article class="blog-post-content">
+    <header class="post-header">
+      <div class="authors">
+        <div class="author">
+          <div class="author-name-title">
+            <div class="author-name">{{ author }}</div>
+            <div class="post-date">{{ date.toLocaleDateString() }}</div>
+          </div>
+        </div>
+      </div>
+      
+      <h1>{{ title }}</h1>
+      
+      {% if description %}
+      <p class="post-description">{{ description }}</p>
+      {% endif %}
+      
+      {% if tags %}
+      <div class="post-tags">
+        {% for tag in tags %}
+          {% if tag != "post" %}
+            <span class="tag">{{ tag }}</span>
+          {% endif %}
+        {% endfor %}
+      </div>
+      {% endif %}
+    </header>
+
+    <div class="post-content">
+      {{ content | safe }}
+    </div>
+  </article>
+</div>
