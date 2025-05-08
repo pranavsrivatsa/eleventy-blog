@@ -4,7 +4,7 @@ title: "Sustainable Technology: The Green Computing Revolution"
 date: 2024-03-03
 author: "Lisa Chen"
 description: "How the tech industry is embracing sustainability and reducing its environmental impact through innovative solutions."
-tags: ["post", "sustainability", "green-tech", "environment"]
+tags: ["business", "post", "sustainability", "green-tech", "environment"]
 ---
 
 The technology industry is undergoing a green revolution, with companies increasingly focusing on sustainable practices and reducing their environmental impact. From energy-efficient data centers to recyclable hardware, the sector is making significant strides in addressing climate change concerns.

@@ -1,3 +1,5 @@
+import { feedPlugin } from "@11ty/eleventy-plugin-rss";
+
 export default function (eleventyConfig) {
   eleventyConfig.addFilter("uppercase", function (value) {
     return value.toUpperCase();
@@ -21,6 +23,25 @@ export default function (eleventyConfig) {
       }
     });
     return [...tagSet].sort();
+  });
+
+  eleventyConfig.addPlugin(feedPlugin, {
+    type: "rss", // or "rss", "json"
+    outputPath: "/feed.xml",
+    collection: {
+      name: "post", // iterate over `collections.post`
+      limit: 10, // 0 means no limit
+    },
+    metadata: {
+      language: "en",
+      title: "Blog Title",
+      subtitle: "This is a longer description about your blog.",
+      base: "https://eleventy-blog-gamma.vercel.app/",
+      author: {
+        name: "PS",
+        email: "p@g.co", // Optional
+      },
+    },
   });
 
   return {

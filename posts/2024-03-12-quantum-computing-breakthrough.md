@@ -4,7 +4,7 @@ title: "Major Quantum Computing Breakthrough Achieved"
 date: 2024-03-12
 author: "Dr. Emily Zhang"
 description: "Researchers have achieved quantum supremacy in solving a complex optimization problem, marking a significant milestone in quantum computing."
-tags: ["post", "quantum", "science", "research"]
+tags: ["post", "quantum", "science", "research", "customer-story"]
 ---
 
 In a groundbreaking development, a team of researchers has successfully demonstrated quantum supremacy in solving a complex optimization problem that would take classical computers thousands of years to solve. This achievement represents a significant step forward in the field of quantum computing and opens new possibilities for practical applications.

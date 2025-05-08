@@ -4,7 +4,16 @@ title: "Edge Computing: The Future of Distributed Systems"
 date: 2024-02-28
 author: "Dr. Thomas Wright"
 description: "How edge computing is transforming data processing and enabling new applications in IoT, AI, and real-time analytics."
-tags: ["post", "edge-computing", "iot", "cloud", "infrastructure"]
+tags:
+  [
+    "business",
+    "post",
+    "edge-computing",
+    "iot",
+    "cloud",
+    "infrastructure",
+    "tech",
+  ]
 ---
 
 Edge computing is revolutionizing how we process and analyze data, moving computation closer to where data is generated. This shift from centralized cloud computing to distributed edge networks is enabling new applications and improving performance across various industries.

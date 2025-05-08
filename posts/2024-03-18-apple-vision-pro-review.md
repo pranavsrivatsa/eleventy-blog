@@ -4,7 +4,7 @@ title: "Apple Vision Pro: The Future of Spatial Computing?"
 date: 2024-03-18
 author: "Michael Rodriguez"
 description: "After spending a month with Apple's Vision Pro, we explore whether this $3,500 headset truly represents the future of computing."
-tags: ["post", "apple", "vr", "ar", "hardware"]
+tags: ["post", "apple", "vr", "ar", "hardware", "tech", "customer-story"]
 ---
 
 Apple's Vision Pro has finally hit the market, and after extensive testing, it's clear that this isn't just another VR headset. The device represents Apple's boldest foray into spatial computing, combining cutting-edge hardware with a refined software experience that could potentially redefine how we interact with digital content.

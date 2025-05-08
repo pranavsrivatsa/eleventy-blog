@@ -5,8 +5,8 @@ title: Tags
 
 <h1>Tags</h1>
 
-<ul>
+<div class="post-tags">
   {% for tag in collections.tagList %}
-    <li><a href="/tags/{{ tag }}">{{ tag }}</a></li>
+    <a href="/tags/{{ tag | slug }}/" class="tag">{{ tag }}</a>
   {% endfor %}
-</ul>
+</div>

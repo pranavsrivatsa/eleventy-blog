@@ -540,3 +540,37 @@ nav.back a {
     font-size: 1rem;
   }
 }
+
+/* Button Styles */
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.depress-button {
+  padding: 0.75rem 2rem;
+  font-size: 1.1rem;
+  background: var(--card-bg);
+  color: var(--text-light);
+  border: 1px solid transparent;
+  outline: 1px solid var(--border-color);
+  outline-offset: 2px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: outline-offset 0.1s ease, outline-width 0.1s ease,
+    background 0.1s ease;
+  min-width: 100px;
+  text-align: center;
+}
+
+.depress-button:hover {
+  background: var(--card-hover-bg);
+  outline-color: var(--border-hover);
+}
+
+.depress-button:active {
+  outline-offset: 0px;
+  outline-width: 1px;
+  background: var(--card-bg);
+}

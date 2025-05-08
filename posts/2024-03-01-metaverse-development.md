@@ -4,7 +4,8 @@ title: "The Metaverse: Beyond the Hype"
 date: 2024-03-01
 author: "Ryan Martinez"
 description: "Exploring the current state of metaverse development and its potential impact on how we work, play, and socialize."
-tags: ["post", "metaverse", "vr", "ar", "future-tech"]
+tags:
+  ["business", "post", "metaverse", "vr", "ar", "future-tech", "customer-story"]
 ---
 
 The metaverse continues to evolve beyond its initial hype, with significant developments in both technology and user adoption. Major tech companies are investing billions in building the infrastructure needed to support these virtual worlds, while developers are creating increasingly sophisticated experiences.

@@ -3,7 +3,9 @@ layout: base.njk
 ---
 
 <div class="blog-post-page">
-  <nav class="back"><a class="muted" href="/blog">← Blog</a></nav>
+  <nav class="back">
+    <a class="muted" href="/blog/{{ fromPage | default(1) }}/">← Back to Blog</a>
+  </nav>
   
   <article class="blog-post-content">
     <header class="post-header">
@@ -26,7 +28,7 @@ layout: base.njk
       <div class="post-tags">
         {% for tag in tags %}
           {% if tag != "post" %}
-            <span class="tag">{{ tag }}</span>
+            <a href="/tags/{{ tag | slug }}/" class="tag">{{ tag }}</a>
           {% endif %}
         {% endfor %}
       </div>
