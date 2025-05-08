@@ -27,7 +27,9 @@ export default function (eleventyConfig) {
 
   eleventyConfig.addPlugin(feedPlugin, {
     type: "rss", // or "rss", "json"
-    ttl: 60,
+    feed: {
+      ttl: 60,
+    },
     outputPath: "/feed.xml",
     collection: {
       name: "post", // iterate over `collections.post`
@@ -38,7 +40,6 @@ export default function (eleventyConfig) {
       title: "Blog Title",
       subtitle: "This is a longer description about your blog.",
       base: "https://eleventy-blog-gamma.vercel.app/",
-      ttl: 60,
       author: {
         name: "PS",
         email: "p@g.co", // Optional
