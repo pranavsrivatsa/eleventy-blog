@@ -27,12 +27,9 @@ export default function (eleventyConfig) {
 
   eleventyConfig.addPlugin(feedPlugin, {
     type: "rss", // or "rss", "json"
-    feed: {
-      ttl: 60,
-    },
     outputPath: "/feed.xml",
     collection: {
-      name: "post", // iterate over `collections.post`
+      name: "podcast",
       limit: 10, // 0 means no limit
     },
     metadata: {
