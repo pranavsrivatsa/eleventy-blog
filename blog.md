@@ -4,6 +4,7 @@ title: Blog
 pagination:
   data: collections.post
   size: 10
+  reverse: true
 permalink: "blog/{{ pagination.pageNumber | plus: 1 }}/index.html"
 generatePageOnEmptyData: true
 ---

@@ -574,3 +574,34 @@ nav.back a {
   outline-width: 1px;
   background: var(--card-bg);
 }
+
+/* Copy Box Styles */
+.copy-container {
+  margin: 1.5rem 0;
+}
+
+.copy-box {
+  /* display: flex; */
+  /* align-items: center; */
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  padding: 0.75rem 1rem;
+  /* gap: 1rem; */
+}
+
+.copy-input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  color: var(--text-light);
+  font-size: 0.9rem;
+  font-family: monospace;
+  padding: 0;
+  outline: none;
+  cursor: text;
+}
+
+.copy-input::selection {
+  background: var(--border-hover);
+}

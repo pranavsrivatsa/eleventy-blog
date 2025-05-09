@@ -30,7 +30,7 @@ export default function (eleventyConfig) {
     outputPath: "/feed.xml",
     collection: {
       name: "podcast",
-      limit: 10, // 0 means no limit
+      limit: 10,
     },
     metadata: {
       language: "en",
@@ -40,6 +40,26 @@ export default function (eleventyConfig) {
       author: {
         name: "PS",
         email: "p@g.co", // Optional
+      },
+    },
+  });
+
+  eleventyConfig.addPlugin(feedPlugin, {
+    type: "rss",
+    outputPath: "/podcast-feed.xml",
+    collection: {
+      name: "podcast_episode",
+      limit: 0,
+    },
+    metadata: {
+      language: "en",
+      title: "The Eleventy Podcast",
+      subtitle:
+        "Exploring the world of static site generation with Eleventy - discussing performance, SEO, and modern web development best practices.",
+      base: "https://eleventy-blog-gamma.vercel.app/",
+      author: {
+        name: "Pranav Srivatsa",
+        email: "p@g.co",
       },
     },
   });
